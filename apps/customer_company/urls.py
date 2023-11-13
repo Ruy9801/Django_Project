@@ -7,5 +7,4 @@ router.register(r'customer_companies', CustomerCompanyViewSet, basename='custome
 
 urlpatterns = [
     path('api/', include(router.urls)),
-    # Другие URL-маршруты вашего приложения
 ]
